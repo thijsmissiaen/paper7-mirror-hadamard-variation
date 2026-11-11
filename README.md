@@ -19,13 +19,17 @@ We examine explicit de la Vallée Poussin and Stechkin zero-free region inequali
 
 Every non-negative cosine polynomial $P(\theta) = \frac{1}{2} + \sum _ {k=1}^K w _ k\cos(k\theta) \ge 0$ satisfies $w _ 1 \le \cos(\frac{\pi}{K+2})$ (Fejér 1916; Kondratiev 1977) with extremal weight sum $\sum _ {k=1}^K w _ k^{(K)} = \frac{1}{K+2}\cot^2(\frac{\pi}{2(K+2)}) - \frac{1}{2}$. For $d > \frac{1}{2}$ ($\sigma = \frac{1}{2} + d > 1$), pairing the multiset of nontrivial zeros under $\rho \mapsto 1 - \bar{\rho}$ (Stechkin 1970) gives
 
-$$K(d, \delta, u) := \frac{1}{2}\left[\frac{d - \delta}{(d - \delta)^2 + u^2} + \frac{d + \delta}{(d + \delta)^2 + u^2}\right] = \frac{d\left(d^2 - \delta^2 + u^2\right)}{\left(d^2 - \delta^2 + u^2\right)^2 + 4u^2\delta^2} > 0, \qquad \int _ {-\infty}^{\infty} K(d, \delta, u)\mathrm{d}u = \pi.$$
+$$
+K(d, \delta, u) := \frac{1}{2}\left[\frac{d - \delta}{(d - \delta)^2 + u^2} + \frac{d + \delta}{(d + \delta)^2 + u^2}\right] = \frac{d\left(d^2 - \delta^2 + u^2\right)}{\left(d^2 - \delta^2 + u^2\right)^2 + 4u^2\delta^2} > 0, \qquad \int _ {-\infty}^{\infty} K(d, \delta, u)\mathrm{d}u = \pi.
+$$
 
 ### 2. Quasiconcave Minorant Crossing and Plateau Admissibility (Theorem 4.1)
 
 Because $\int _ {\mathbb{R}}[K(d,\delta,u) - K(d,\frac{1}{2},u)]\mathrm{d}u = 0$, $K(d, \frac{1}{2}, u)$ exceeds $K(d, 0, u)$ near $u = 0$. Factoring the difference and differentiating in $\delta^2 \in [0, \frac{1}{4}]$ proves strict quasiconcavity:
 
-$$K _ {\flat}(d, u) := \min _ {\delta \in [0, 1/2]} K(d, \delta, u) = \min\left(K(d, 0, u), K\left(d, \frac{1}{2}, u\right)\right), \qquad u _ {\times}(d) = \left[\frac{\sqrt{16d^4 - 2d^2 + \frac{1}{16}} - \left(2d^2 + \frac{1}{4}\right)}{6}\right]^{1/2} < \frac{d}{\sqrt{3}},$$
+$$
+K _ {\flat}(d, u) := \min _ {\delta \in [0, 1/2]} K(d, \delta, u) = \min\left(K(d, 0, u), K\left(d, \frac{1}{2}, u\right)\right), \qquad u _ {\times}(d) = \left[\frac{\sqrt{16d^4 - 2d^2 + \frac{1}{16}} - \left(2d^2 + \frac{1}{4}\right)}{6}\right]^{1/2} < \frac{d}{\sqrt{3}},
+$$
 
 validating the plateau minorant $\widetilde{K} _ H(d, u) := K(d, \frac{1}{2}, \max(\lvert u\rvert, H)) \le K(d, \delta, u)$ across $\mathbb{R}$ whenever $H \ge u _ {\times}(d)$.
 
