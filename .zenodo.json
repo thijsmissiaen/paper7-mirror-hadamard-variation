@@ -2,7 +2,7 @@
   "title": "Explicit Poisson-Hadamard Zero-Free Region Inequalities, Quasiconcave Minorant Crossing, Rigorous Trudgian Stieltjes Bounds, and Comparison with Smooth Weil Weights",
   "description": "Paper VII of the series on the Transverse Wronskian of Riemann's Xi-Function. Examines explicit de la Vallee Poussin and Stechkin zero-free region inequalities through the mirror-paired Poisson-Hadamard kernel K(d, delta, u). Proves that delta^2 |-> K(d, delta, u) is strictly quasiconcave on [0, 1/4] with sharp endpoint minorant K_flat(d, u) = min(K(d, 0, u), K(d, 1/2, u)) crossing at u_x(d) < d/sqrt(3), derives an unconditional plateau Stieltjes lower bound incorporating Trudgian's (2014) constant 2.510, logarithmic tail and concavity corrections, and u = 0 focal-pair de-duplication, and benchmarks honestly against Mossinghoff-Trudgian-Yang (2024), Korobov-Vinogradov, Platt-Trudgian (2021), and Heath-Brown (1992) smooth Weil weights.",
   "upload_type": "publication",
-  "publication_type": "article",
+  "publication_type": "preprint",
   "creators": [
     {
       "name": "Missiaen, Thijs",
@@ -23,5 +23,5 @@
     "MSC 11M26",
     "MSC 30D15"
   ],
-  "version": "1.1.0"
+  "version": "7.1.1"
 }

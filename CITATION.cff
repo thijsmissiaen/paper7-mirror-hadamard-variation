@@ -7,7 +7,8 @@ authors:
     email: "thijs.missiaen@gmail.com"
     orcid: "https://orcid.org/0009-0007-3678-0810"
 title: "Explicit Poisson-Hadamard Zero-Free Region Inequalities, Quasiconcave Minorant Crossing, Rigorous Trudgian Stieltjes Bounds, and Comparison with Smooth Weil Weights"
-version: 1.1.0
+version: "7.1.1"
+doi: "10.5281/zenodo.23645885"
 date-released: 2026-11-11
 url: "https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation"
 repository-code: "https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation"
