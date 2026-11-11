@@ -1,6 +1,6 @@
 # Explicit Poisson–Hadamard Zero-Free Region Inequalities, Quasiconcave Minorant Crossing, Rigorous Trudgian Stieltjes Bounds, and Comparison with Smooth Weil Weights
 
-**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.26104839.svg)](https://doi.org/10.5281/zenodo.26104839) [`10.5281/zenodo.26104839`](https://doi.org/10.5281/zenodo.26104839)  
+**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23645885.svg)](https://doi.org/10.5281/zenodo.23645885) [`10.5281/zenodo.23645885`](https://doi.org/10.5281/zenodo.23645885)  
 **Author:** Thijs Missiaen (Independent Researcher, Belgium; ORCID: [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810))  
 **Series:** Paper VII of the Transverse Wronskian Series on Riemann's $\Xi$-Function  
 **Manuscript:** [paper/paper7_mirror_hadamard_variation.pdf](paper/paper7_mirror_hadamard_variation.pdf) (8 pages, AMS-LaTeX / pdfTeX) | [paper/paper7_mirror_hadamard_variation.tex](paper/paper7_mirror_hadamard_variation.tex)  
