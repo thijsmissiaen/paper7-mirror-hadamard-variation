@@ -1,8 +1,8 @@
 {
-  "title": "The Mirror-Paired Hadamard Square-Denominator Identity, the Universal Conservation Law int_R K du = pi, and Stationary Trudgian Variation in the Critical Strip",
-  "description": "Paper VII of the series on the Transverse Wronskian of Riemann's Xi-Function. Establishes the dual pure-square trigonometric Wronskian multiplets S_pm(d,t) and the Fejer-Lukacs Toeplitz Rayleigh maximum Lambda_max(K) = 2 cos(pi/(K+2)), the mirror-paired Hadamard square-denominator identity K(d, d_rho, u) = d(d^2 - d_rho^2 + u^2)/[((d^2 - d_rho^2 + u^2)^2 + 4u^2 d_rho^2)], monotone critical-strip penetration d_{strip,X}^{mirror}(t) under finite prime-power sieving, the universal conservation law int_{-inf}^{inf} K(d, d_rho, u) du = pi, the exact quartic difference factorization proving the hypothesis-free minorant K_min(d,u) = K(d, 1/2, u) on |u| >= H_min(d), and the d-independent stationary variational law H_opt(kt) = 2*pi*B_S(kt)/ln(kt/2pi) -> 2*pi(0.112) = 0.70371675... driven by Trudgian's explicit bound on S(T).",
+  "title": "Explicit Poisson-Hadamard Zero-Free Region Inequalities, Quasiconcave Minorant Crossing, Rigorous Trudgian Stieltjes Bounds, and Comparison with Smooth Weil Weights",
+  "description": "Paper VII of the series on the Transverse Wronskian of Riemann's Xi-Function. Examines explicit de la Vallee Poussin and Stechkin zero-free region inequalities through the mirror-paired Poisson-Hadamard kernel K(d, delta, u). Proves that delta^2 |-> K(d, delta, u) is strictly quasiconcave on [0, 1/4] with sharp endpoint minorant K_flat(d, u) = min(K(d, 0, u), K(d, 1/2, u)) crossing at u_x(d) < d/sqrt(3), derives an unconditional plateau Stieltjes lower bound incorporating Trudgian's (2014) constant 2.510, logarithmic tail and concavity corrections, and u = 0 focal-pair de-duplication, and benchmarks honestly against Mossinghoff-Trudgian-Yang (2024), Korobov-Vinogradov, Platt-Trudgian (2021), and Heath-Brown (1992) smooth Weil weights.",
   "upload_type": "publication",
-  "publication_type": "preprint",
+  "publication_type": "article",
   "creators": [
     {
       "name": "Missiaen, Thijs",
@@ -10,27 +10,18 @@
       "orcid": "0009-0007-3678-0810"
     }
   ],
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
-  ],
   "access_right": "open",
   "license": "MIT",
   "keywords": [
-    "Riemann Xi-function",
-    "Transverse Wronskian",
-    "Hadamard partial-fraction expansion",
-    "Mirror-paired kernel",
-    "Fejer-Lukacs polynomial",
-    "de la Vallee Poussin inequality",
-    "Trudgian S(T) bound",
-    "Stationary variational law",
+    "Riemann zeta function",
+    "Explicit zero-free regions",
+    "Stechkin-Hadamard Poisson kernel",
+    "Fejer-Lukacs polynomials",
+    "Trudgian argument bound",
+    "Heath-Brown smooth weights",
     "MSC 11M06",
     "MSC 11M26",
     "MSC 30D15"
   ],
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
